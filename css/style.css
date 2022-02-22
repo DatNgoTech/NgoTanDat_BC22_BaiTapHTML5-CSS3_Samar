@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  /* 18px==1rem */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #636363;
+}
+
+/* Button Header */
+.button__cell .button__nav a {
+  text-decoration: none;
+}
+.button__cell .button__nav button {
+  background-image: linear-gradient(
+    to right,
+    #d53369 0%,
+    #cbad6d 51%,
+    #d53369 100%
+  );
+}
+
+.button__cell .button__nav button {
+  background-color: #f55f8d;
+  color: #fff;
+  padding: 20px 35px;
+  display: inline-block;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border: 0;
+  display: block;
+}
+
+.button__cell .button__nav button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Header */
+.header__container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header__container .header__fixed {
+  margin: 40px 20px;
+}
+
+.header__fixed .container__header__row {
+  display: flex;
+  align-items: center;
+}
+
+.container__header__row .logo__header__cel {
+  width: 35%;
+}
+
+.container__header__row .navbar__cel {
+  width: 45%;
+}
+
+.navbar__cel li {
+  display: inline-flex;
+}
+
+.navbar__cel li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.35;
+  cursor: pointer;
+}
+
+.container__header__row .button__cell {
+  width: 20%;
+}
+
+/* Banner */
+.header__banner{
+  background-image:url("/images/pic2.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+
+.banner__container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.banner__container .row {
+  display: flex;
+}
+
+.banner__container .row .col__7 {
+  width: 60%;
+}
+
+.banner__title {
+}
+
+.banner__title h6 {
+  font-weight: 600;
+  font-size: 22px;
+  display: inline-block;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  color: #f55f8d;
+}
+
+.banner__title h1{
+  font-size: 70px;
+    line-height: 1.1;
+    font-weight: 800;
+    color: black;
+}
+
+.banner__title p {
+  font-size: 18px;
+}
+
+.banner__title ul{
+  list-style: none;
+}
+
+.banner__title ul li{
+  padding: 10px 5px 10px 0px;
+    font-size: 20px;
+}
+
+.banner__title ul li::before{
+  content: "\f00c";
+    font-size: 24px;
+    width: 35px;
+    height: 35px;
+    background: #000;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 35px;
+    font-weight: 900;
+    background-image: var(--gradient);
+    background-size: 200%;
+}
+
+.banner__container .row .col__5 {
+  width: 40%;
+}
+
+.banner__image {
+  max-width: 100%;
+}
+
+.banner__image image {
+  border-style: none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.banner__title a{
+  text-decoration: none;
+}
+
+.banner__title button{
+  background-image: linear-gradient(
+    to right,
+    #d53369 0%,
+    #cbad6d 51%,
+    #d53369 100%
+  );
+}
+
+.banner__title button{
+  background-color: #f55f8d;
+  color: #fff;
+  padding: 20px 35px;
+  display: inline-block;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border: 0;
+  display: block;
+}
+
+.banner__title button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Digital Services */
+
+.digital__services__container {
+width: 90%;
+margin: 0 auto;
+}
+
+.digital__services__container .services__row {
+  display: flex;
+}
+
+.services__row .card {
+  width: 33%;
+}
